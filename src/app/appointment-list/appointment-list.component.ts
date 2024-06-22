@@ -8,7 +8,6 @@ import { OnInit } from '@angular/core'; // Lifecycle hook
   standalone: true,
   imports: [CommonModule, FormsModule], // Add necessary imports here if you are using standalone components
   templateUrl: './appointment-list.component.html',
-  styleUrls: ['./appointment-list.component.css'] // Corrected property name
 })
 export class AppointmentListComponent implements OnInit {
 

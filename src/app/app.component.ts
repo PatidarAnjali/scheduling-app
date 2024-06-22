@@ -3,11 +3,10 @@ import { AppointmentListComponent } from './appointment-list/appointment-list.co
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
   standalone: true,
-  imports: [AppointmentListComponent]
+  imports: [AppointmentListComponent], // Import the standalone component
+  templateUrl: './app.component.html',
 })
 export class AppComponent {
-  // Component logic
+  title = 'your-app-title';
 }
