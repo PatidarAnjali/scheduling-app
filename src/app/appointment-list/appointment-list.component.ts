@@ -3,6 +3,7 @@ import { Appointment } from '../models/appointment';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { OnInit } from '@angular/core'; // Lifecycle hook
+
 @Component({
   selector: 'app-appointment-list',
   standalone: true,
